@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="KelTech Solutions - Your Digital Assistant on one tap. Web, app, AI agent, and digital technology solutions in Mehsana & Visnagar."
+    />
+    <title>KelTech Solutions | Technological Digital Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="three-bg" aria-hidden="true"></canvas>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header glass">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand" aria-label="KelTech Solutions home">
+          <svg class="brand-logo" width="44" height="44" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#7dd3fc" />
+                <stop offset="50%" stop-color="#3b82f6" />
+                <stop offset="100%" stop-color="#1d4ed8" />
+              </linearGradient>
+            </defs>
+            <path d="M32 2.5 57 17v30L32 61.5 7 47V17L32 2.5z" fill="url(#logoGradient)" stroke="#e0f2fe" stroke-width="2" />
+            <path d="M21 18v28h6.4V35.8L39 46h9.3L34 32.8 47.3 18H38l-10.6 11.5V18z" fill="#f8fbff" />
+          </svg>
+          <span>
+            <strong>KelTech Solutions</strong>
+            <small>Your Digital Assistant on one tap</small>
+          </span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span><span class="sr-only">Toggle menu</span>
+        </button>
+
+        <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#team">Team</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero container reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Established 2026 • Mehsana, Gujarat</p>
+          <h1>
+            Future-Ready <span class="gradient-text">3D Digital Solutions</span>
+            for Smart Businesses
+          </h1>
+          <p>
+            KelTech Solutions builds intelligent websites, apps, and AI assistants with immersive,
+            modern experiences that convert visitors into customers.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Start Your Project</a>
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+          </div>
+        </div>
+
+        <div class="hero-visual tilt" data-tilt>
+          <div class="ring ring-1"></div>
+          <div class="ring ring-2"></div>
+          <div class="ring ring-3"></div>
+          <div class="floating-panel glass">
+            <h3>Live Service Stack</h3>
+            <ul>
+              <li>⚡ AI-Powered Assistants</li>
+              <li>🌐 High-Performance Websites</li>
+              <li>📱 Scalable Apps</li>
+              <li>🎯 Premium Brand Identity</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container reveal">
+        <h2>About KelTech Solutions</h2>
+        <div class="content-grid">
+          <article class="card glass tilt" data-tilt>
+            <p>
+              KelTech Solutions is a forward-thinking technology company focused on delivering
+              intelligent, scalable, and results-driven digital solutions for modern businesses.
+            </p>
+            <p>
+              We specialize in web-based platforms, custom applications, and AI-powered agents
+              that streamline operations, improve customer engagement, and drive growth.
+            </p>
+            <p>
+              Our mission is to bridge technology and business success by making advanced digital
+              solutions practical, reliable, and impactful.
+            </p>
+          </article>
+          <aside class="stats card glass tilt" data-tilt>
+            <h3>Quick Info</h3>
+            <ul>
+              <li><strong>Firm Type:</strong> Technological Digital Solutions</li>
+              <li><strong>Location:</strong> Mehsana / Visnagar</li>
+              <li><strong>Founded:</strong> 2026</li>
+              <li><strong>Support:</strong> WhatsApp + Email + Call</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="services" class="section container reveal">
+        <h2>Services</h2>
+        <div class="cards-4">
+          <article class="service-card glass tilt" data-tilt>
+            <h3>Digital Tech Solutions</h3>
+            <p>Business-focused transformation to modernize your digital operations.</p>
+          </article>
+          <article class="service-card glass tilt" data-tilt>
+            <h3>Website Development & Management</h3>
+            <p>Fast, responsive, SEO-ready websites with maintenance and optimization.</p>
+          </article>
+          <article class="service-card glass tilt" data-tilt>
+            <h3>AI Agent & Assistant Development</h3>
+            <p>AI assistants for customer support, lead generation, and workflow automation.</p>
+          </article>
+          <article class="service-card glass tilt" data-tilt>
+            <h3>App Development & Management</h3>
+            <p>Cross-platform apps that are reliable, high-performance, and scalable.</p>
+          </article>
+          <article class="service-card glass tilt" data-tilt>
+            <h3>Logo Development</h3>
+            <p>Modern logo systems and brand design that stand out digitally.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="team" class="section container reveal">
+        <h2>Team</h2>
+        <div class="team-grid">
+          <article class="team-card glass tilt" data-tilt>
+            <h3>Keval Patel</h3>
+            <p>Founder & CEO</p>
+          </article>
+          <article class="team-card glass tilt" data-tilt>
+            <h3>Khushi Nayak</h3>
+            <p>Co-Founder</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section container reveal">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial glass tilt" data-tilt>
+            “KelTech transformed our workflow with smart automation and a modern site.”
+            <cite>— Local Business Owner, Mehsana</cite>
+          </blockquote>
+          <blockquote class="testimonial glass tilt" data-tilt>
+            “Their AI assistant reduced our support response time significantly.”
+            <cite>— Startup Founder, Gujarat</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="faq" class="section container reveal">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <details class="glass">
+            <summary>Do you build custom websites for specific industries?</summary>
+            <p>Yes. We design and develop websites based on your business goals and audience.</p>
+          </details>
+          <details class="glass">
+            <summary>Can you manage and update our existing website or app?</summary>
+            <p>Absolutely. We provide maintenance, optimization, and feature upgrades.</p>
+          </details>
+          <details class="glass">
+            <summary>Do you offer AI automation for customer support?</summary>
+            <p>Yes. We build AI assistants for support, lead capture, and process automation.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="blog" class="section container reveal">
+        <h2>Blog</h2>
+        <div class="blog-grid">
+          <article class="blog-card glass tilt" data-tilt>
+            <h3>Why Every Business Needs an AI Assistant in 2026</h3>
+            <p>Practical use cases that improve customer engagement and save time.</p>
+          </article>
+          <article class="blog-card glass tilt" data-tilt>
+            <h3>Website Performance Checklist for Growth-Focused Brands</h3>
+            <p>Simple upgrades that improve trust, speed, and conversions.</p>
+          </article>
+          <article class="blog-card glass tilt" data-tilt>
+            <h3>From Idea to App: Planning a Scalable Product</h3>
+            <p>How to move from concept to launch with better architecture.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container reveal">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <article class="card glass tilt" data-tilt>
+            <h3>Get in Touch</h3>
+            <ul class="contact-list">
+              <li><strong>Phone:</strong> <a href="tel:+917016551224">+91 70165 51224</a></li>
+              <li><strong>Email:</strong> <a href="mailto:keval83598@gmail.com">keval83598@gmail.com</a></li>
+              <li><strong>Office:</strong> Visnagar, Gujarat</li>
+              <li><strong>WhatsApp:</strong> <a href="https://wa.me/917016551224" target="_blank" rel="noopener noreferrer">Chat Now</a></li>
+            </ul>
+          </article>
+
+          <form
+            class="card glass contact-form tilt"
+            id="contactForm"
+            name="keltech-contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            action="/thanks.html"
+            data-tilt
+          >
+            <input type="hidden" name="form-name" value="keltech-contact" />
+            <p class="hidden-field"><label>Don’t fill this out if you're human: <input name="bot-field" /></label></p>
+            <h3>Send a Message</h3>
+            <label>Full Name <input type="text" name="name" required placeholder="Enter your name" /></label>
+            <label>Email Address <input type="email" name="email" required placeholder="Enter your email" /></label>
+            <label>
+              Project Type
+              <select name="service" required>
+                <option value="">Select a service</option>
+                <option>Website Development</option>
+                <option>AI Agent Development</option>
+                <option>App Development</option>
+                <option>Digital Tech Solutions</option>
+                <option>Logo Development</option>
+              </select>
+            </label>
+            <label>Message <textarea name="message" rows="4" required placeholder="Tell us about your project"></textarea></label>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="map-wrap card glass reveal">
+          <h3>Office Location</h3>
+          <iframe
+            title="KelTech Solutions location in Visnagar"
+            src="https://www.google.com/maps?q=Visnagar%2C%20Gujarat&z=13&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <a class="whatsapp-float" href="https://wa.me/917016551224" target="_blank" rel="noopener noreferrer" aria-label="Chat with KelTech Solutions on WhatsApp">💬</a>
+
+    <footer class="site-footer glass">
+      <div class="container footer-grid">
+        <p>© <span id="year"></span> KelTech Solutions. All rights reserved.</p>
+        <p>Your Digital Assistant on one tap.</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/three@0.162.0/build/three.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
